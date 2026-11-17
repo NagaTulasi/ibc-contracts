@@ -6,6 +6,7 @@ import (
 	"fmt"
 
 	"github.com/cosmos/gogoproto/proto"
+	solanatypes "github.com/cosmos/solidity-ibc-eureka/packages/go-proto/solana"
 
 	"github.com/ethereum/go-ethereum/accounts/abi"
 
@@ -14,7 +15,6 @@ import (
 	gmptypes "github.com/lfdt-ibc/ibc-go/v11/modules/apps/27-gmp/types"
 
 	"github.com/lfdt-ibc/ibc-contracts/e2e/v8/testvalues"
-	solanatypes "github.com/lfdt-ibc/ibc-contracts/e2e/v8/types/solana"
 )
 
 // packedAccountSize is the size of a single packed account entry: pubkey(32) + is_signer(1) + is_writable(1).
